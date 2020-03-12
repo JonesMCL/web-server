@@ -18,7 +18,7 @@ var middleware = {
 app.use(middleware.logger);
 
 app.get("/about", middleware.requireAuthentication, function (req, res) {
-	res.send("Hi, I´m Jones!");
+	res.send("Hi, I´m Jones! What´s up?");
 });
 
 //app.use(express.static());
